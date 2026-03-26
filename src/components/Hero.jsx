@@ -41,13 +41,13 @@ function Hero() {
 
   return (
     <section className="hero">
-      {/* Floating trust badge */}
-      <div className="hero-badge">
-        <span className="hero-badge-dot" />
-        Trusted by 12,000+ happy customers
-      </div>
-
       <div className="hero-overlay">
+        {/* Badge now inside overlay */}
+        <div className="hero-badge">
+          <span className="hero-badge-dot" />
+          Trusted by 12,000+ happy customers
+        </div>
+
         <h1>
           Everything for<br />
           <em className="hero-typewriter">
