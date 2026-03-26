@@ -5,7 +5,7 @@
   position: relative;
   min-height: 50vh;
   background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-    url("images/primes.jpg");
+    url("/images/primes.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
